@@ -35,4 +35,8 @@ export class ListComponent implements OnInit {
   getData(){
     return this.data;
   }
+
+  close(){
+    this.showEdit = false;
+  }
 }

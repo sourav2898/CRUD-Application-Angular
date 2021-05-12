@@ -40,4 +40,8 @@ export class UpdateComponent implements OnInit {
     window.location.reload();
   }
 
+  close(){
+    this.list.close();
+  }
+
 }
